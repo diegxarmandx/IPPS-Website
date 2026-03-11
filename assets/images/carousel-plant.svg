@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Industrial plant placeholder</title>
+  <desc id="desc">Placeholder industrial facility illustration</desc>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0d2738"/>
+      <stop offset="100%" stop-color="#3b6d8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g1)"/>
+  <g fill="#ffffff" opacity="0.2">
+    <rect x="120" y="420" width="280" height="220"/>
+    <rect x="460" y="360" width="340" height="280"/>
+    <rect x="840" y="300" width="280" height="340"/>
+    <rect x="1170" y="390" width="310" height="250"/>
+  </g>
+  <text x="80" y="120" fill="#d9f0ff" font-size="64" font-family="Arial, sans-serif" font-weight="700">Industrial Process Facility</text>
+</svg>

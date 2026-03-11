@@ -1,0 +1,10 @@
+{
+  "name": "ipps-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Bootstrap website for IPPS with searchable catalog and contact/quote forms",
+  "scripts": {
+    "serve": "python3 -m http.server 8080",
+    "parse:catalog": "node scripts/parse-catalog-from-pdf.mjs --input catalog/source/catalog.pdf --output data/catalog.json --raw data/catalog.raw.txt"
+  }
+}

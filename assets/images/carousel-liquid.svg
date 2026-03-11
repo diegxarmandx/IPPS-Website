@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Liquid filtration placeholder</title>
+  <desc id="desc">Placeholder liquid filter vessels and piping</desc>
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#16384f"/>
+      <stop offset="100%" stop-color="#1f6a86"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g2)"/>
+  <g stroke="#d8f2ff" stroke-width="14" fill="none" opacity="0.5">
+    <path d="M120 500h1360"/>
+    <path d="M250 270v460"/>
+    <path d="M790 220v500"/>
+    <path d="M1320 260v450"/>
+    <circle cx="250" cy="300" r="90"/>
+    <circle cx="790" cy="330" r="110"/>
+    <circle cx="1320" cy="320" r="95"/>
+  </g>
+  <text x="80" y="120" fill="#d9f0ff" font-size="64" font-family="Arial, sans-serif" font-weight="700">Liquid Filtration Systems</text>
+</svg>

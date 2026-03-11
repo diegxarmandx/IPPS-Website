@@ -1,0 +1,76 @@
+{
+  "companies": [
+    {
+      "name": "BD",
+      "industry": "Medical & Pharmaceutical Manufacturing",
+      "location": "Puerto Rico",
+      "logo": "assets/images/BD_company_logo.png"
+    },
+    {
+      "name": "Coca-Cola",
+      "industry": "Food & Beverage Processing",
+      "location": "Puerto Rico",
+      "logo": "assets/images/Coca-Cola-logo.png"
+    },
+    {
+      "name": "Eli Lilly and Company",
+      "industry": "Pharmaceutical Production",
+      "location": "Puerto Rico",
+      "logo": "assets/images/Eli_Lilly_and_Company.png"
+    },
+    {
+      "name": "Henkel",
+      "industry": "Industrial & Chemical Manufacturing",
+      "location": "Puerto Rico",
+      "logo": "assets/images/Henkel-Logo.png"
+    },
+    {
+      "name": "Pepsi",
+      "industry": "Food & Beverage Processing",
+      "location": "Puerto Rico",
+      "logo": "assets/images/Pepsi.png"
+    },
+    {
+      "name": "Destileria Serralles",
+      "industry": "Distillery Operations",
+      "location": "Puerto Rico",
+      "logo": "assets/images/destileria-Serralles .webp"
+    },
+    {
+      "name": "Olein",
+      "industry": "Industrial Processing",
+      "location": "Puerto Rico",
+      "logo": "assets/images/olein-logo.png"
+    },
+    {
+      "name": "Bacardi",
+      "industry": "Distillery Operations",
+      "location": "Puerto Rico",
+      "logo": "assets/images/Bacardi-logo.png"
+    },
+    {
+      "name": "Cervecera",
+      "industry": "Beverage Production",
+      "location": "Puerto Rico",
+      "logo": "assets/images/Logo-Cervecera.webp"
+    },
+    {
+      "name": "Bravada",
+      "industry": "Industrial Manufacturing",
+      "location": "Puerto Rico",
+      "logo": "assets/images/bravada.png"
+    },
+    {
+      "name": "Lanco",
+      "industry": "Paints & Coatings",
+      "location": "Puerto Rico",
+      "logo": "assets/images/lanco_logo.webp"
+    },
+    {
+      "name": "Multiquimica",
+      "industry": "Chemical Processing",
+      "location": "Dominican Republic",
+      "logo": "assets/images/multiquimica.webp"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 800" role="img" aria-label="CEO portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a3d56"/>
+      <stop offset="100%" stop-color="#2d6f8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="800" fill="url(#bg)"/>
+  <circle cx="360" cy="290" r="125" fill="#d7e9f4" opacity="0.95"/>
+  <path d="M180 700c25-118 95-188 180-188s155 70 180 188" fill="#d7e9f4" opacity="0.95"/>
+  <text x="360" y="110" text-anchor="middle" fill="#eaf6fc" font-size="42" font-family="Arial, sans-serif" font-weight="700">MEET OUR CEO</text>
+  <text x="360" y="760" text-anchor="middle" fill="#d4ecf8" font-size="28" font-family="Arial, sans-serif">Portrait Placeholder</text>
+</svg>
