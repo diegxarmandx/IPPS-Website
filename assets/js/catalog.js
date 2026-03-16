@@ -14,6 +14,7 @@
     sort: document.getElementById("sortSelect"),
     reset: document.getElementById("resetFilters")
   };
+  const learnMoreBasePath = "assets/filters-pdf/";
 
   let products = [];
 
@@ -73,6 +74,10 @@
       media: firstNonEmpty(product.media, product.material, extractMediaFromHighlights(highlights)),
       keySpecs: normalizedSpecs,
       applications: explicitApps.length ? explicitApps : firstNonEmpty(categoryContext) ? [categoryContext] : [],
+      pdfFile:
+        typeof product.pdfFile === "string" && product.pdfFile.trim()
+          ? product.pdfFile.trim()
+          : "",
       specSheet:
         typeof product.specSheet === "string" && product.specSheet.trim()
           ? product.specSheet.trim()
@@ -126,6 +131,14 @@
     ]
       .join(" ")
       .toLowerCase();
+  }
+
+  function getLearnMoreUrl(product) {
+    if (typeof product.pdfFile === "string" && product.pdfFile.trim()) {
+      return `${learnMoreBasePath}${encodeURIComponent(product.pdfFile.trim())}`;
+    }
+
+    return "";
   }
 
   function matchesSelect(controlValue, fieldValue) {
@@ -195,6 +208,8 @@
               `
               : '<div class="mb-3"></div>';
 
+          const learnMoreUrl = getLearnMoreUrl(product);
+
           return `
           <div class="col-md-6 col-xl-4 reveal reveal-visible">
             <article class="card product-card">
@@ -211,7 +226,12 @@
                 ${applicationsBlock}
 
                 <div class="mt-auto d-flex gap-2 flex-wrap">
-                  <a href="contact.html#quote" class="btn btn-sm btn-primary">Request Quote</a>
+                  <a href="quote.html" class="btn btn-sm btn-primary">Request Quote</a>
+                  ${
+                    learnMoreUrl
+                      ? `<a href="${learnMoreUrl}" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">Learn More</a>`
+                      : ""
+                  }
                   ${
                     product.specSheet
                       ? `<a href="${product.specSheet}" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">Spec Sheet</a>`

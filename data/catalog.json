@@ -9,9 +9,14 @@
           "title": "12PYDO Pharma-Pak® Sanitary Lenticular Cartridge Housing",
           "type": "Sanitary Lenticular Cartridge Housing",
           "summary": "316L stainless steel sanitary housing designed for pharmaceutical and biotech filtration with polished construction and secure sealing.",
-          "highlights": ["316L Stainless Steel", "Sanitary Design", "Lenticular Housing"],
+          "highlights": [
+            "316L Stainless Steel",
+            "Sanitary Design",
+            "Lenticular Housing"
+          ],
           "slug": "/products/12pydo-pharma-pak",
-          "category": "Filter Housings"
+          "category": "Filter Housings",
+          "pdfFile": "12PYDO_Stacked_Disc_Housing_ErtelAlsop.pdf"
         }
       ]
     },
@@ -24,17 +29,27 @@
           "title": "EUS Series Plate & Frame Filter",
           "type": "Plate & Frame Filter Press",
           "summary": "A versatile internally ported filter press designed for a broad range of filtration applications with simplified maintenance.",
-          "highlights": ["Internally Ported", "Versatile Use", "Process Filtration"],
+          "highlights": [
+            "Internally Ported",
+            "Versatile Use",
+            "Process Filtration"
+          ],
           "slug": "/products/eus-series",
-          "category": "Plate & Frame Filters"
+          "category": "Plate & Frame Filters",
+          "pdfFile": "EUS_Plate_Frame_ErtelAlsop.pdf"
         },
         {
           "title": "Letre 800 / 900 Plate & Frame Filter Press",
           "type": "Large Plate & Frame Filter Press",
           "summary": "High-capacity plate and frame filter press designed for large-volume production with controlled pressure operation.",
-          "highlights": ["Large Capacity", "Production Scale", "Plate & Frame"],
+          "highlights": [
+            "Large Capacity",
+            "Production Scale",
+            "Plate & Frame"
+          ],
           "slug": "/products/letre-800-900",
-          "category": "Plate & Frame Filters"
+          "category": "Plate & Frame Filters",
+          "pdfFile": "Letre_800_900_Plate_Frame_ErtelAlsop-3.pdf"
         }
       ]
     },
@@ -47,25 +62,40 @@
           "title": "Bev ExPRESS™ Multi-Plate Sheet Filter",
           "type": "Multi-Plate Sheet Filter",
           "summary": "A practical and cost-effective beverage filtration system for wineries, breweries, distilleries, and related operations.",
-          "highlights": ["Beverage Use", "Sheet Filter", "Cost Effective"],
+          "highlights": [
+            "Beverage Use",
+            "Sheet Filter",
+            "Cost Effective"
+          ],
           "slug": "/products/bev-express",
-          "category": "Beverage Filtration Systems"
+          "category": "Beverage Filtration Systems",
+          "pdfFile": "Bev_ExPRESS_MultiPlate_Filter_ErtelAlsop.pdf"
         },
         {
           "title": "BW Filter Press",
           "type": "Sheet Filter Press",
           "summary": "Stainless steel beverage and food filter press with steam-sterilizable plates and reliable production-scale performance.",
-          "highlights": ["Stainless Steel", "Steam-Sterilizable", "Food & Beverage"],
+          "highlights": [
+            "Stainless Steel",
+            "Steam-Sterilizable",
+            "Food & Beverage"
+          ],
           "slug": "/products/bw-filter-press",
-          "category": "Beverage Filtration Systems"
+          "category": "Beverage Filtration Systems",
+          "pdfFile": "Bev_ExPRESS_MultiPlate_Filter_ErtelAlsop.pdf"
         },
         {
           "title": "ME Filter Press",
           "type": "Compact Sheet Filter Press",
           "summary": "Compact sheet filtration system for lower-volume beverage processing with a smaller footprint and efficient operation.",
-          "highlights": ["Compact Design", "Small Volume", "Beverage Filtration"],
+          "highlights": [
+            "Compact Design",
+            "Small Volume",
+            "Beverage Filtration"
+          ],
           "slug": "/products/me-filter-press",
-          "category": "Beverage Filtration Systems"
+          "category": "Beverage Filtration Systems",
+          "pdfFile": "Bev_ExPRESS_MultiPlate_Filter_ErtelAlsop.pdf"
         }
       ]
     },
@@ -78,17 +108,27 @@
           "title": "MicroClear™ Activated Carbon Depth Filter Media",
           "type": "Activated Carbon Depth Filter Media",
           "summary": "Carbon-impregnated depth media designed for simultaneous filtration, decolorization, and deodorization.",
-          "highlights": ["Activated Carbon", "Decolorization", "Deodorization"],
+          "highlights": [
+            "Activated Carbon",
+            "Decolorization",
+            "Deodorization"
+          ],
           "slug": "/products/microclear",
-          "category": "Filter Media"
+          "category": "Filter Media",
+          "pdfFile": "MicroClear_Filter_Media_ErtelAlsop.pdf"
         },
         {
           "title": "Micro-Media® Depth Filter Media",
           "type": "Depth Filter Media",
           "summary": "High-performance cellulose-based depth filter media designed for critical filtration in pharmaceutical, food, cosmetic, and chemical processes.",
-          "highlights": ["Depth Media", "Critical Filtration", "Cellulose Based"],
+          "highlights": [
+            "Depth Media",
+            "Critical Filtration",
+            "Cellulose Based"
+          ],
           "slug": "/products/micro-media",
-          "category": "Filter Media"
+          "category": "Filter Media",
+          "pdfFile": "MicroMedia_Filter_Media_ErtelAlsop.pdf"
         }
       ]
     },
@@ -101,9 +141,14 @@
           "title": "Pak® Lenticular Filters",
           "type": "Lenticular Depth Filter Cartridge System",
           "summary": "Enclosed lenticular filtration cartridges built for cleaner operation, quick cartridge replacement, and scalable filtration performance.",
-          "highlights": ["Lenticular System", "Quick Changeout", "Scalable Processing"],
+          "highlights": [
+            "Lenticular System",
+            "Quick Changeout",
+            "Scalable Processing"
+          ],
           "slug": "/products/pak-lenticular-filters",
-          "category": "Lenticular Filters"
+          "category": "Lenticular Filters",
+          "pdfFile": "Pak_Lenticular_Media_ErtelAlsop.pdf"
         }
       ]
     },
@@ -116,49 +161,79 @@
           "title": "PP-Series",
           "type": "Pleated Depth Cartridge",
           "summary": "High purity pleated polypropylene filter cartridge designed to remove fine and coarse particulates from liquid streams. Its 100% polypropylene construction provides excellent chemical compatibility and strong dirt-holding capacity.",
-          "highlights": ["100% Polypropylene", "High Dirt Holding", "Chemical Resistant"],
+          "highlights": [
+            "100% Polypropylene",
+            "High Dirt Holding",
+            "Chemical Resistant"
+          ],
           "slug": "/products/pp-series",
-          "category": "Pleated Depth Cartridges"
+          "category": "Pleated Depth Cartridges",
+          "pdfFile": "PP-Series-High-Purity-Pleated-Polypropylene.pdf"
         },
         {
           "title": "PPE-Series",
           "type": "Pleated Depth Cartridge",
           "summary": "Economy grade pleated polypropylene cartridge providing reliable particulate removal with thermally bonded media for durability, cleanliness, and chemical resistance.",
-          "highlights": ["Economy Grade", "Polypropylene", "Thermally Bonded"],
+          "highlights": [
+            "Economy Grade",
+            "Polypropylene",
+            "Thermally Bonded"
+          ],
           "slug": "/products/ppe-series",
-          "category": "Pleated Depth Cartridges"
+          "category": "Pleated Depth Cartridges",
+          "pdfFile": "PPE-Series-Economy-Grade-Pleated-Polypropylene-1.pdf"
         },
         {
           "title": "GHLS-Series",
           "type": "Lofted Pleated Depth Cartridge",
           "summary": "Lofted pleated polypropylene cartridge designed for high contaminant loading and viscous liquids, delivering high dirt-holding capacity without restricting flow.",
-          "highlights": ["Lofted Media", "High Loading", "Viscous Fluids"],
+          "highlights": [
+            "Lofted Media",
+            "High Loading",
+            "Viscous Fluids"
+          ],
           "slug": "/products/ghls-series",
-          "category": "Pleated Depth Cartridges"
+          "category": "Pleated Depth Cartridges",
+          "pdfFile": "GHLS-series.pdf"
         },
         {
           "title": "FG-Series",
           "type": "Pleated Microglass Cartridge",
           "summary": "Pleated borosilicate microglass filter cartridge offering high-efficiency particulate removal, low pressure drop, and extended service life for process liquids.",
-          "highlights": ["Microglass Media", "High Efficiency", "Low Pressure Drop"],
+          "highlights": [
+            "Microglass Media",
+            "High Efficiency",
+            "Low Pressure Drop"
+          ],
           "slug": "/products/fg-series",
-          "category": "Pleated Depth Cartridges"
+          "category": "Pleated Depth Cartridges",
+          "pdfFile": "FG-Series-Pleated-Microglass-Media.pdf"
         },
         {
           "title": "FGE-Series",
           "type": "Economy Pleated Microglass Cartridge",
           "summary": "Economy grade pleated microglass cartridge designed for nominal filtration in water and industrial process liquids while maintaining reliable throughput.",
-          "highlights": ["Economy Grade", "Microglass", "Process Liquids"],
+          "highlights": [
+            "Economy Grade",
+            "Microglass",
+            "Process Liquids"
+          ],
           "slug": "/products/fge-series",
-          "category": "Pleated Depth Cartridges"
+          "category": "Pleated Depth Cartridges",
+          "pdfFile": "FGE-Series-Economy-Grade-Pleated-Microglass-Media.pdf"
         },
         {
           "title": "LiquidClear™ GF-Series",
           "type": "Pleated Synthetic Depth Cartridge",
           "summary": "Pleated synthetic depth media cartridge constructed from 100% synthetic fibers with no binders or adhesives, providing excellent dirt-holding capacity and low pressure drop.",
-          "highlights": ["Synthetic Fibers", "No Binders", "Low Pressure Drop"],
+          "highlights": [
+            "Synthetic Fibers",
+            "No Binders",
+            "Low Pressure Drop"
+          ],
           "slug": "/products/liquidclear-gf-series",
-          "category": "Pleated Depth Cartridges"
+          "category": "Pleated Depth Cartridges",
+          "pdfFile": "LiquidClear™-GF-Series-Pleated-Synthetic-Depth-Media-DS-221017-1.pdf"
         }
       ]
     },
@@ -171,161 +246,261 @@
           "title": "GHPS-Series",
           "type": "Polysulfone Membrane Cartridge",
           "summary": "High purity polysulfone membrane cartridge designed for high flow rates, strong loading capability, and long service life in liquid filtration applications.",
-          "highlights": ["Polysulfone", "High Flow", "Hydrophilic"],
+          "highlights": [
+            "Polysulfone",
+            "High Flow",
+            "Hydrophilic"
+          ],
           "slug": "/products/ghps-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "GHPS-series.pdf"
         },
         {
           "title": "WCPES-Series",
           "type": "Polyethersulfone Membrane Cartridge",
           "summary": "Value-oriented PES membrane cartridge designed for cost-effective general purpose membrane filtration with strong wet-out and competitive performance.",
-          "highlights": ["PES Membrane", "Value Oriented", "General Purpose"],
+          "highlights": [
+            "PES Membrane",
+            "Value Oriented",
+            "General Purpose"
+          ],
           "slug": "/products/wcpes-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "WCPES-series.pdf"
         },
         {
           "title": "GGPES-Series",
           "type": "General Grade PES Membrane Cartridge",
           "summary": "General grade polyethersulfone membrane cartridge designed for cost-effective liquid filtration with low pressure loss and long service life.",
-          "highlights": ["General Grade", "PES Membrane", "Low Pressure Loss"],
+          "highlights": [
+            "General Grade",
+            "PES Membrane",
+            "Low Pressure Loss"
+          ],
           "slug": "/products/ggpes-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "GGPES-Series-General-Grade-Polyethersulfone-1.pdf"
         },
         {
           "title": "GEPES-Series",
           "type": "Electronics Grade PES Membrane Cartridge",
           "summary": "Electronics grade PES membrane cartridge designed for ultra-clean filtration in microelectronics and high purity chemical applications.",
-          "highlights": ["Electronics Grade", "Ultra Clean", "Microelectronics"],
+          "highlights": [
+            "Electronics Grade",
+            "Ultra Clean",
+            "Microelectronics"
+          ],
           "slug": "/products/gepes-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "GEPES-Series-Electronics-Grade-Polyethersulfone.pdf"
         },
         {
           "title": "GFPES-Series",
           "type": "Food & Beverage Grade PES Membrane Cartridge",
           "summary": "Food and beverage grade PES membrane cartridge designed to protect organoleptic properties while delivering high flux and low protein binding.",
-          "highlights": ["Food & Beverage", "Low Protein Binding", "Diffusion Tested"],
+          "highlights": [
+            "Food & Beverage",
+            "Low Protein Binding",
+            "Diffusion Tested"
+          ],
           "slug": "/products/gfpes-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "GFPES-series.pdf"
         },
         {
           "title": "GBPES-Series",
           "type": "Wine & Beverage Grade PES Membrane Cartridge",
           "summary": "Wine and beverage grade PES membrane cartridge optimized for consumable production with strong extractables control and repeated sanitization capability.",
-          "highlights": ["Wine & Beverage", "Low Extractables", "Hot Water / Steam"],
+          "highlights": [
+            "Wine & Beverage",
+            "Low Extractables",
+            "Hot Water / Steam"
+          ],
           "slug": "/products/gbpes-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "GBPES-series.pdf"
         },
         {
           "title": "GDPES-Series",
           "type": "DuoGrade™ Serial Layer PES Cartridge",
           "summary": "Serial-layer PES membrane cartridge with microglass prefiltration layer designed for particulate-heavy solutions and protection of downstream sterilizing filters.",
-          "highlights": ["Serial Layer", "Microglass Prefilter", "Extended Life"],
+          "highlights": [
+            "Serial Layer",
+            "Microglass Prefilter",
+            "Extended Life"
+          ],
           "slug": "/products/gdpes-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "GDPES-Series-DuoGrade™-Serial-Layer-Polyethersulfone.pdf"
         },
         {
           "title": "GSPES-Series",
           "type": "Serial-Layer PES Membrane Cartridge",
           "summary": "Serial-layer PES cartridge designed for clarification of particulate-heavy solutions with strong throughput and protection for downstream sterilizing stages.",
-          "highlights": ["Serial Layer", "High Throughput", "Clarification"],
+          "highlights": [
+            "Serial Layer",
+            "High Throughput",
+            "Clarification"
+          ],
           "slug": "/products/gspes-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "GSPES-Series-Serial-Layer-Polyethersulfone-1.pdf"
         },
         {
           "title": "BRPES-Series",
           "type": "Bio-Burden Reduction PES Cartridge",
           "summary": "Validated bio-burden reduction grade PES membrane cartridge designed for removal of small particles and microbial contaminants in critical liquid processes.",
-          "highlights": ["Bio-Burden Reduction", "Validated", "Integrity Tested"],
+          "highlights": [
+            "Bio-Burden Reduction",
+            "Validated",
+            "Integrity Tested"
+          ],
           "slug": "/products/brpes-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "BRPES-Series-Bio-Burden-Reduction-Grade-Polyethersulfone.pdf"
         },
         {
           "title": "PPES-Series",
           "type": "Pharmaceutical Grade PES Cartridge",
           "summary": "Pharmaceutical grade PES membrane cartridge designed for sterile filtration and clarification of valuable pharmaceutical and biological solutions.",
-          "highlights": ["Pharmaceutical Grade", "Sterilizing Grade", "Validation Guide"],
+          "highlights": [
+            "Pharmaceutical Grade",
+            "Sterilizing Grade",
+            "Validation Guide"
+          ],
           "slug": "/products/ppes-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "PPES-Series-Pharmaceutical-Grade-Polyethersulfone-1.pdf"
         },
         {
           "title": "GGHNY / GGHNY+ Series",
           "type": "General Grade Nylon Membrane Cartridge",
           "summary": "General grade nylon 6,6 membrane cartridge with optional positively charged Plus+ surface for improved retention of haze, color bodies, and endotoxins.",
-          "highlights": ["Nylon 6,6", "Optional Plus+", "General Use"],
+          "highlights": [
+            "Nylon 6,6",
+            "Optional Plus+",
+            "General Use"
+          ],
           "slug": "/products/gghny-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "GGHNY-Series-General-Grade-Nylon-and-Plus-Nylon-1.pdf"
         },
         {
           "title": "GEHNY / GEHNY+ Series",
           "type": "Electronics Grade Nylon Membrane Cartridge",
           "summary": "Electronics grade nylon membrane cartridge designed for ultra-pure water and high purity microelectronics applications with low extractables and quick rinse-up.",
-          "highlights": ["Electronics Grade", "Ultra-Pure Water", "Low Extractables"],
+          "highlights": [
+            "Electronics Grade",
+            "Ultra-Pure Water",
+            "Low Extractables"
+          ],
           "slug": "/products/gehny-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "GEHNY-Series-Food-and-Beverage-Grade-Nylon-and-Plus-Nylon.pdf"
         },
         {
           "title": "GFHNY / GFHNY+ Series",
           "type": "Food & Beverage Grade Nylon Membrane Cartridge",
           "summary": "Food and beverage grade nylon membrane cartridge with proven microbial retention and optional Plus+ charge for haze, color body, and endotoxin reduction.",
-          "highlights": ["Food & Beverage", "Microbial Retention", "Optional Plus+"],
+          "highlights": [
+            "Food & Beverage",
+            "Microbial Retention",
+            "Optional Plus+"
+          ],
           "slug": "/products/gfhny-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "GFHNY-Series-Food-and-Beverage-Grade-Nylon-and-Plus-Nylon-2.pdf"
         },
         {
           "title": "BRHNY / BRHNY+ Series",
           "type": "Bio-Burden Reduction Nylon Cartridge",
           "summary": "Bio-burden reduction nylon Plus+ membrane cartridge designed for endotoxin, haze, colloid, and microbial retention in high purity medical and pharmaceutical systems.",
-          "highlights": ["Endotoxin Removal", "Bio-Burden Reduction", "Medical Applications"],
+          "highlights": [
+            "Endotoxin Removal",
+            "Bio-Burden Reduction",
+            "Medical Applications"
+          ],
           "slug": "/products/brhny-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "BRHNY-Series-Bio-Burden-Reduction-Grade-Nylon-Plus-D024B-EN-1.pdf"
         },
         {
           "title": "PSH-Series",
           "type": "Hydrophobic Polysulfone Cartridge",
           "summary": "Hydrophobic polysulfone membrane cartridge designed for air, inert gas, and tank vent applications requiring strong moisture resistance at competitive cost.",
-          "highlights": ["Hydrophobic", "Air / Gas", "Tank Vent"],
+          "highlights": [
+            "Hydrophobic",
+            "Air / Gas",
+            "Tank Vent"
+          ],
           "slug": "/products/psh-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "PSH-Series-Hydrophobic-Polysulfone-1.pdf"
         },
         {
           "title": "GGPTFE-Series",
           "type": "General Grade PTFE Cartridge",
           "summary": "General grade PTFE membrane cartridge designed for aggressive fluids, organic solvents, venting, and gas filtration with superior hydrophobicity.",
-          "highlights": ["PTFE Membrane", "Aggressive Fluids", "Hydrophobic"],
+          "highlights": [
+            "PTFE Membrane",
+            "Aggressive Fluids",
+            "Hydrophobic"
+          ],
           "slug": "/products/ggptfe-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "GGPTFE-series.pdf"
         },
         {
           "title": "EPTFE-Series",
           "type": "Electronics Grade PTFE Cartridge",
           "summary": "Electronics grade expanded PTFE membrane cartridge designed for aggressive chemicals, high purity microelectronics fluids, and gas filtration down to nanometer ratings.",
-          "highlights": ["Electronics Grade", "Expanded PTFE", "Ultra Fine Ratings"],
+          "highlights": [
+            "Electronics Grade",
+            "Expanded PTFE",
+            "Ultra Fine Ratings"
+          ],
           "slug": "/products/eptfe-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "EPTFE-series.pdf"
         },
         {
           "title": "BRPTFE-Series",
           "type": "Bio-Burden Reduction PTFE Cartridge",
           "summary": "PTFE membrane cartridge designed for high-performance sterile gas and aggressive process applications requiring strong hydrophobic performance and critical retention.",
-          "highlights": ["PTFE", "Critical Retention", "Sterile Gas"],
+          "highlights": [
+            "PTFE",
+            "Critical Retention",
+            "Sterile Gas"
+          ],
           "slug": "/products/brptfe-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "BRPTFE-Series-Bio-Burden-Reduction-Grade-PTFE-1.pdf"
         },
         {
           "title": "PPTFE-Series",
           "type": "Pharmaceutical Grade PTFE Cartridge",
           "summary": "Pharmaceutical grade PTFE membrane cartridge designed for sterile air, gas, and vent filtration with validated sterilizing-grade performance.",
-          "highlights": ["Pharmaceutical Grade", "Sterile Air / Gas", "Validated"],
+          "highlights": [
+            "Pharmaceutical Grade",
+            "Sterile Air / Gas",
+            "Validated"
+          ],
           "slug": "/products/pptfe-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "PPTFE-Series-Pharmaceutical-Grade-PTFE-DS-210831.pdf"
         },
         {
           "title": "GPFA-Series",
           "type": "High Purity Fluoropolymer Cartridge",
           "summary": "High purity fluoropolymer membrane cartridge designed for aggressive chemicals and semiconductor applications requiring exceptional cleanliness and chemical resistance.",
-          "highlights": ["Fluoropolymer", "Semiconductor", "High Purity"],
+          "highlights": [
+            "Fluoropolymer",
+            "Semiconductor",
+            "High Purity"
+          ],
           "slug": "/products/gpfa-series",
-          "category": "Pleated Membrane Cartridges"
+          "category": "Pleated Membrane Cartridges",
+          "pdfFile": "GPFA-series.pdf"
         }
       ]
     },
@@ -338,33 +513,53 @@
           "title": "HFB-Series",
           "type": "High Flow Cartridge",
           "summary": "Large diameter high flow cartridge designed to deliver increased flow rates and extended filtration capacity while reducing changeout frequency.",
-          "highlights": ["High Capacity", "Reduced Cartridge Count", "Industrial Filtration"],
+          "highlights": [
+            "High Capacity",
+            "Reduced Cartridge Count",
+            "Industrial Filtration"
+          ],
           "slug": "/products/hfb-series",
-          "category": "High Flow Cartridges"
+          "category": "High Flow Cartridges",
+          "pdfFile": "HFB-Series-High-Flow-Pleated-Cartridge.pdf"
         },
         {
           "title": "HF-Series",
           "type": "High Flow Cartridge",
           "summary": "High flow pleated cartridge designed to reduce housing size and cartridge count while maintaining efficient contaminant removal and low pressure drop.",
-          "highlights": ["Pleated Design", "High Throughput", "Low Pressure Drop"],
+          "highlights": [
+            "Pleated Design",
+            "High Throughput",
+            "Low Pressure Drop"
+          ],
           "slug": "/products/hf-series",
-          "category": "High Flow Cartridges"
+          "category": "High Flow Cartridges",
+          "pdfFile": "HF-Series-High-Flow-Polypropylene-and-Microglass-Filter-Cartridge-1.pdf"
         },
         {
           "title": "EHF3-Series",
           "type": "High Flow Cartridge",
           "summary": "High capacity filtration element engineered for demanding large-scale filtration systems requiring strong dirt-loading capacity and reliable performance.",
-          "highlights": ["Large Scale", "High Capacity", "Industrial Systems"],
+          "highlights": [
+            "Large Scale",
+            "High Capacity",
+            "Industrial Systems"
+          ],
           "slug": "/products/ehf3-series",
-          "category": "High Flow Cartridges"
+          "category": "High Flow Cartridges",
+          "pdfFile": "EHF3-Series-High-Flow-Pleated-Cartridge-1.pdf"
         },
         {
           "title": "HF3-Series",
           "type": "High Flow Cartridge",
           "summary": "High flow filter cartridge designed for maximum throughput and efficient contaminant removal in industrial water and process liquid systems.",
-          "highlights": ["Maximum Throughput", "Efficient Removal", "Process Liquids"],
+          "highlights": [
+            "Maximum Throughput",
+            "Efficient Removal",
+            "Process Liquids"
+          ],
           "slug": "/products/hf3-series",
-          "category": "High Flow Cartridges"
+          "category": "High Flow Cartridges",
+          "pdfFile": "HF3-Series-High-Flow-Pleated-Cartridge-1.pdf"
         }
       ]
     },
@@ -377,65 +572,105 @@
           "title": "GPB-Series",
           "type": "Melt-Blown Polypropylene Depth Cartridge",
           "summary": "Melt-blown polypropylene depth cartridge designed for efficient particulate removal and high dirt-holding capacity through graded density filtration.",
-          "highlights": ["Melt-Blown", "Polypropylene", "High Dirt Holding"],
+          "highlights": [
+            "Melt-Blown",
+            "Polypropylene",
+            "High Dirt Holding"
+          ],
           "slug": "/products/gpb-series",
-          "category": "Depth Cartridges"
+          "category": "Depth Cartridges",
+          "pdfFile": "GPB-series.png"
         },
         {
           "title": "GWTB-Series",
           "type": "String Wound Depth Cartridge",
           "summary": "String wound depth cartridge providing strong contaminant retention through a tortuous filtration path for demanding liquid filtration applications.",
-          "highlights": ["String Wound", "Depth Filtration", "High Loading"],
+          "highlights": [
+            "String Wound",
+            "Depth Filtration",
+            "High Loading"
+          ],
           "slug": "/products/gwtb-series",
-          "category": "Depth Cartridges"
+          "category": "Depth Cartridges",
+          "pdfFile": "GWTB-series.pdf"
         },
         {
           "title": "GWTB BB-Series",
           "type": "Big Blue String Wound Cartridge",
           "summary": "Large diameter string wound depth cartridge designed for higher flow systems with increased surface area and longer service life.",
-          "highlights": ["Big Blue", "High Flow", "Extended Service Life"],
+          "highlights": [
+            "Big Blue",
+            "High Flow",
+            "Extended Service Life"
+          ],
           "slug": "/products/gwtb-bb-series",
-          "category": "Depth Cartridges"
+          "category": "Depth Cartridges",
+          "pdfFile": "GWTB-BB-series.pdf"
         },
         {
           "title": "GCTB-Series",
           "type": "Cellulose Depth Cartridge",
           "summary": "Cellulose-based depth cartridge designed for effective particulate removal in general industrial and liquid process applications.",
-          "highlights": ["Cellulose Based", "General Filtration", "Process Liquids"],
+          "highlights": [
+            "Cellulose Based",
+            "General Filtration",
+            "Process Liquids"
+          ],
           "slug": "/products/gctb-series",
-          "category": "Depth Cartridges"
+          "category": "Depth Cartridges",
+          "pdfFile": "GCTB-series.pdf"
         },
         {
           "title": "GATB-Series",
           "type": "Activated Carbon Depth Cartridge",
           "summary": "Activated carbon depth cartridge combining particulate removal with chlorine, taste, odor, and chemical adsorption performance.",
-          "highlights": ["Activated Carbon", "Taste & Odor", "Dual Function"],
+          "highlights": [
+            "Activated Carbon",
+            "Taste & Odor",
+            "Dual Function"
+          ],
           "slug": "/products/gatb-series",
-          "category": "Depth Cartridges"
+          "category": "Depth Cartridges",
+          "pdfFile": "GATB.pdf"
         },
         {
           "title": "GNTB-Series",
           "type": "Nylon Depth Cartridge",
           "summary": "Nylon depth cartridge designed for strong chemical compatibility and stable depth filtration performance across industrial liquid applications.",
-          "highlights": ["Nylon Media", "Chemical Compatible", "Depth Filtration"],
+          "highlights": [
+            "Nylon Media",
+            "Chemical Compatible",
+            "Depth Filtration"
+          ],
           "slug": "/products/gntb-series",
-          "category": "Depth Cartridges"
+          "category": "Depth Cartridges",
+          "pdfFile": "GNTB-series.pdf"
         },
         {
           "title": "G-Series Wound",
           "type": "Wound Depth Cartridge",
           "summary": "Precision wound depth cartridge designed for economical filtration and reliable contaminant removal in water and process liquid systems.",
-          "highlights": ["Economical", "Precision Wound", "Reliable Removal"],
+          "highlights": [
+            "Economical",
+            "Precision Wound",
+            "Reliable Removal"
+          ],
           "slug": "/products/g-series-wound",
-          "category": "Depth Cartridges"
+          "category": "Depth Cartridges",
+          "pdfFile": "G-Series-Wound.pdf"
         },
         {
           "title": "GSD-Series",
           "type": "Stacked Disc Depth Cartridge",
           "summary": "Stacked disc depth filter element designed for high solids removal, clarification, and protection of downstream pleated depth or membrane systems.",
-          "highlights": ["Stacked Disc", "Clarification", "High Solids Removal"],
+          "highlights": [
+            "Stacked Disc",
+            "Clarification",
+            "High Solids Removal"
+          ],
           "slug": "/products/gsd-series",
-          "category": "Depth Cartridges"
+          "category": "Depth Cartridges",
+          "pdfFile": "GSD-series.pdf"
         }
       ]
     },
@@ -448,25 +683,40 @@
           "title": "Standard Felt",
           "type": "Needle-Felt Liquid Filter Bag",
           "summary": "Needle-felt filter bag designed for strong particulate retention and high dirt-holding capacity in industrial liquid filtration.",
-          "highlights": ["Needle-Felt", "High Dirt Holding", "Industrial Use"],
+          "highlights": [
+            "Needle-Felt",
+            "High Dirt Holding",
+            "Industrial Use"
+          ],
           "slug": "/products/standard-felt-filter-bags",
-          "category": "Liquid Filter Bags"
+          "category": "Liquid Filter Bags",
+          "pdfFile": "standard-felt.png"
         },
         {
           "title": "Standard Mesh",
           "type": "Woven Mesh Liquid Filter Bag",
           "summary": "Reusable woven mesh filter bag designed for coarse filtration, low pressure drop, and high flow performance.",
-          "highlights": ["Reusable", "Mesh Construction", "High Flow"],
+          "highlights": [
+            "Reusable",
+            "Mesh Construction",
+            "High Flow"
+          ],
           "slug": "/products/standard-mesh-filter-bags",
-          "category": "Liquid Filter Bags"
+          "category": "Liquid Filter Bags",
+          "pdfFile": "standard-mesh.png"
         },
         {
           "title": "High Efficiency",
           "type": "High Efficiency Liquid Filter Bag",
           "summary": "Multi-layer liquid filter bag designed to achieve higher particle removal efficiency than standard bags while maintaining strong dirt-holding capacity.",
-          "highlights": ["High Efficiency", "Multi-Layer", "Fine Particulate Removal"],
+          "highlights": [
+            "High Efficiency",
+            "Multi-Layer",
+            "Fine Particulate Removal"
+          ],
           "slug": "/products/high-efficiency-filter-bags",
-          "category": "Liquid Filter Bags"
+          "category": "Liquid Filter Bags",
+          "pdfFile": "high-effiency.png"
         }
       ]
     },
@@ -479,73 +729,118 @@
           "title": "GSTL-Series",
           "type": "Stainless Steel Filter Vessel",
           "summary": "Stainless steel cartridge vessel designed for sanitary and industrial filtration systems requiring durable construction and reliable housing performance.",
-          "highlights": ["Stainless Steel", "Cartridge Housing", "Sanitary / Industrial"],
+          "highlights": [
+            "Stainless Steel",
+            "Cartridge Housing",
+            "Sanitary / Industrial"
+          ],
           "slug": "/products/gstl-series",
-          "category": "Filter Vessels"
+          "category": "Filter Vessels",
+          "pdfFile": "GSTL-Series-Single-Sanitary-Cartridge-Liquid-Filter-Vessels-DS-210601-EU.pdf"
         },
         {
           "title": "GFHD-Series",
           "type": "High Flow Filter Vessel",
           "summary": "High flow vessel engineered for large diameter cartridge systems to reduce cartridge count and improve large-scale filtration efficiency.",
-          "highlights": ["High Flow", "Large Diameter", "Reduced Cartridge Count"],
+          "highlights": [
+            "High Flow",
+            "Large Diameter",
+            "Reduced Cartridge Count"
+          ],
           "slug": "/products/gfhd-series",
-          "category": "Filter Vessels"
+          "category": "Filter Vessels",
+          "pdfFile": "GFHD-Series-Single-Cartridge-Liquid-Filter-Vessels-D205A-EN.pdf"
         },
         {
           "title": "GTCHB-Series",
           "type": "Multi-Cartridge Filter Vessel",
           "summary": "Multi-cartridge vessel designed for increased filtration capacity and efficient contaminant removal in industrial liquid systems.",
-          "highlights": ["Multi-Cartridge", "High Capacity", "Industrial Liquids"],
+          "highlights": [
+            "Multi-Cartridge",
+            "High Capacity",
+            "Industrial Liquids"
+          ],
           "slug": "/products/gtchb-series",
-          "category": "Filter Vessels"
+          "category": "Filter Vessels",
+          "pdfFile": "GTCHB-Series-Multi-Cartridge-Band-Clamp-Liquid-Filter-Vessels-D206B-EN.pdf"
         },
         {
           "title": "GTCH-Series",
           "type": "Heavy Duty Multi-Cartridge Vessel",
           "summary": "Heavy duty multi-cartridge filter vessel designed for high flow industrial filtration systems with robust construction and easy maintenance.",
-          "highlights": ["Heavy Duty", "High Flow", "Easy Maintenance"],
+          "highlights": [
+            "Heavy Duty",
+            "High Flow",
+            "Easy Maintenance"
+          ],
           "slug": "/products/gtch-series",
-          "category": "Filter Vessels"
+          "category": "Filter Vessels",
+          "pdfFile": "GTCH-Series-Multi-Cartridge-Liquid-Filter-Vessels-DS-090920-EU.pdf"
         },
         {
           "title": "GBFE4-Series",
           "type": "Bag Filter Vessel",
           "summary": "Single bag filter vessel designed for efficient liquid filtration using replaceable filter bags in compact industrial systems.",
-          "highlights": ["Single Bag", "Economical", "Compact System"],
+          "highlights": [
+            "Single Bag",
+            "Economical",
+            "Compact System"
+          ],
           "slug": "/products/gbfe4-series",
-          "category": "Filter Vessels"
+          "category": "Filter Vessels",
+          "pdfFile": "GBFE4-series.png"
         },
         {
           "title": "GBFV8-Series",
           "type": "Bag Filter Vessel",
           "summary": "Bag filter vessel available in stainless steel or carbon steel for industrial filtration systems requiring durable medium to high flow performance.",
-          "highlights": ["Stainless or Carbon Steel", "Bag Vessel", "Industrial Use"],
+          "highlights": [
+            "Stainless or Carbon Steel",
+            "Bag Vessel",
+            "Industrial Use"
+          ],
           "slug": "/products/gbfv8-series",
-          "category": "Filter Vessels"
+          "category": "Filter Vessels",
+          "pdfFile": "GBFV8-Series-Stainless-Steel-Single-Bag-Liquid-Vessels-D201A-EN.pdf"
         },
         {
           "title": "GBFV82-Series",
           "type": "Twin Capacity Bag Filter Vessel",
           "summary": "Twin-capacity stainless steel bag vessel designed to increase filtration capacity and reduce downtime by accommodating two bags simultaneously.",
-          "highlights": ["Twin Capacity", "Stainless Steel", "Reduced Downtime"],
+          "highlights": [
+            "Twin Capacity",
+            "Stainless Steel",
+            "Reduced Downtime"
+          ],
           "slug": "/products/gbfv82-series",
-          "category": "Filter Vessels"
+          "category": "Filter Vessels",
+          "pdfFile": "GBFV82-Series-Twin-Capacity-Bag-Liquid-Filter-Vessels-D202B-EN.pdf"
         },
         {
           "title": "GMBV-Series",
           "type": "Multi-Bag Filter Vessel",
           "summary": "Multi-bag vessel designed for high flow filtration applications requiring multiple filter bags operating in parallel.",
-          "highlights": ["Multi-Bag", "High Flow", "Large Capacity"],
+          "highlights": [
+            "Multi-Bag",
+            "High Flow",
+            "Large Capacity"
+          ],
           "slug": "/products/gmbv-series",
-          "category": "Filter Vessels"
+          "category": "Filter Vessels",
+          "pdfFile": "GMBV-series.pdf"
         },
         {
           "title": "GMBE-Series",
           "type": "Heavy Duty Multi-Bag Filter Vessel",
           "summary": "Heavy duty multi-bag vessel available in stainless steel or carbon steel for large-scale industrial liquid filtration systems.",
-          "highlights": ["Heavy Duty", "Multi-Bag", "Large Scale"],
+          "highlights": [
+            "Heavy Duty",
+            "Multi-Bag",
+            "Large Scale"
+          ],
           "slug": "/products/gmbe-series",
-          "category": "Filter Vessels"
+          "category": "Filter Vessels",
+          "pdfFile": "GMBE-series.pdf"
         }
       ]
     }

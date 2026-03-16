@@ -21,10 +21,11 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="mainNav">
-            <ul class="navbar-nav ms-auto gap-lg-2">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
               <li class="nav-item"><a class="nav-link ${page === "home" ? "active" : ""}" href="index.html">Home</a></li>
               <li class="nav-item"><a class="nav-link ${page === "catalog" ? "active" : ""}" href="catalog.html">Catalog</a></li>
-              <li class="nav-item"><a class="nav-link ${page === "contact" ? "active" : ""}" href="contact.html">Contact / Quote</a></li>
+              <li class="nav-item"><a class="nav-link ${page === "contact" ? "active" : ""}" href="contact.html">Contact</a></li>
+              <li class="nav-item ms-lg-2"><a class="nav-cta" href="quote.html">Request Quote</a></li>
             </ul>
           </div>
         </div>
@@ -52,7 +53,7 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="catalog.html">Catalog</a></li>
               <li><a href="contact.html">Contact Us</a></li>
-              <li><a href="contact.html#quote">Get a Quote</a></li>
+              <li><a href="quote.html">Get a Quote</a></li>
             </ul>
           </div>
           <div class="col-md-4 col-lg-5">
@@ -65,7 +66,8 @@
           </div>
         </div>
         <hr class="border-secondary-subtle my-4" />
-        <p class="small mb-0">© ${new Date().getFullYear()} IPPS. All rights reserved.</p>
+        <p class="small mb-1">© ${new Date().getFullYear()} IPPS. All rights reserved.</p>
+        <p class="small mb-0 footer-note">Reliable filtration distribution with Caribbean-focused responsiveness.</p>
       </div>
     `;
   }

@@ -28,18 +28,32 @@
     <header id="site-header"></header>
 
     <main id="main-content">
-      <section class="page-hero section-padding-sm">
+      <section class="page-hero section-padding-sm page-hero-shell">
         <div class="container">
-          <img src="assets/images/logo-black.png" alt="IPPS logo" class="page-brand-mark mb-3" loading="lazy" />
-          <p class="eyebrow">Product Catalog</p>
-          <h1 class="display-6">Industrial Filtration Products</h1>
-          <p class="lead mb-0">
-            Search, filter, and sort IPPS filtration products for industrial and commercial applications across Puerto Rico and the Caribbean.
-          </p>
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-8">
+              <img src="assets/images/logo-black.png" alt="IPPS logo" class="page-brand-mark mb-3" loading="lazy" />
+              <p class="eyebrow">Product Catalog</p>
+              <h1 class="display-6">Industrial Filtration Products</h1>
+              <p class="lead mb-0">
+                Search, filter, and sort IPPS filtration products for industrial and commercial applications across Puerto Rico and the Caribbean.
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <div class="page-kpi-card">
+                <p class="kpi-label mb-2">Catalog Scope</p>
+                <div class="kpi-grid">
+                  <div><strong>12</strong><span>Client Sectors</span></div>
+                  <div><strong>B2B</strong><span>Industrial Buyers</span></div>
+                  <div><strong>PR</strong><span>Operations Hub</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="section-padding-sm">
+      <section class="section-padding-sm section-shell catalog-section">
         <div class="container">
           <div class="catalog-controls shadow-industrial reveal">
             <div class="row g-3">
@@ -85,9 +99,9 @@
             </div>
           </div>
 
-          <div class="d-flex justify-content-between align-items-center mt-4 mb-3 reveal">
+          <div class="catalog-results-bar d-flex justify-content-between align-items-center mt-4 mb-3 reveal">
             <p id="resultsCount" class="mb-0 fw-semibold">Loading products...</p>
-            <a href="contact.html#quote" class="btn btn-sm btn-primary">Need help choosing? Request a Quote</a>
+            <a href="quote.html" class="btn btn-sm btn-primary">Need help choosing? Request a Quote</a>
           </div>
 
           <div id="catalogGrid" class="row g-4"></div>
@@ -107,6 +121,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/catalog.js"></script>
+    <script src="assets/js/catalog.js?v=20260315"></script>
   </body>
 </html>
