@@ -78,6 +78,65 @@
     return { ok: true };
   }
 
+  function extractCatalogProductNames(payload) {
+    const fromFlatList = Array.isArray(payload.products) ? payload.products : [];
+    const fromCategories = Array.isArray(payload.catalogCategories)
+      ? payload.catalogCategories.flatMap((category) => (Array.isArray(category.products) ? category.products : []))
+      : [];
+
+    const merged = [...fromFlatList, ...fromCategories];
+    const names = merged
+      .map((item) => (item && (item.title || item.name) ? String(item.title || item.name).trim() : ""))
+      .filter(Boolean);
+
+    return [...new Set(names)].sort((a, b) => a.localeCompare(b));
+  }
+
+  function bindQuoteProductsTypeahead(productNames) {
+    const input = document.getElementById("quoteProducts");
+    const datalist = document.getElementById("quoteProductsList");
+    if (!input || !datalist || !productNames.length) return;
+
+    function renderOptions(searchTerm, prefix) {
+      const token = (searchTerm || "").trim().toLowerCase();
+      const filtered = productNames.filter((name) => !token || name.toLowerCase().includes(token)).slice(0, 80);
+
+      datalist.innerHTML = "";
+      filtered.forEach((name) => {
+        const option = document.createElement("option");
+        option.value = `${prefix}${name}`;
+        datalist.appendChild(option);
+      });
+    }
+
+    function updateSuggestions() {
+      const raw = input.value || "";
+      const chunks = raw.split(",");
+      const active = (chunks.pop() || "").trimStart();
+      const prefix = chunks.length ? `${chunks.join(",").trim()}, ` : "";
+      renderOptions(active, prefix);
+    }
+
+    input.addEventListener("input", updateSuggestions);
+    input.addEventListener("focus", updateSuggestions);
+    updateSuggestions();
+  }
+
+  async function initializeQuoteProductsField() {
+    const input = document.getElementById("quoteProducts");
+    if (!input) return;
+
+    try {
+      const response = await fetch("data/catalog.json", { cache: "no-store" });
+      if (!response.ok) throw new Error(`Catalog load failed: ${response.status}`);
+      const payload = await response.json();
+      const names = extractCatalogProductNames(payload);
+      bindQuoteProductsTypeahead(names);
+    } catch (error) {
+      console.error("Unable to initialize product suggestions for quote form.", error);
+    }
+  }
+
   forms.forEach((formConfig) => {
     const form = document.getElementById(formConfig.id);
     if (!form) return;
@@ -113,4 +172,6 @@
       }
     });
   });
+
+  initializeQuoteProductsField();
 })();

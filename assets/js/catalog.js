@@ -29,6 +29,10 @@
     return values.find((value) => value && value.toString().trim() && !isPlaceholderValue(value)) || "";
   }
 
+  function sanitizeText(value) {
+    return typeof value === "string" ? value.trim() : value;
+  }
+
   function extractMicronFromText(...chunks) {
     const joined = chunks.filter(Boolean).join(" ");
     const match = joined.match(/(\d+(\.\d+)?)\s*micron/i);
@@ -66,7 +70,7 @@
     return {
       id: firstNonEmpty(product.id, product.slug, `${categoryContext}-${product.title || product.name}`),
       name: firstNonEmpty(product.name, product.title, "Unnamed Product"),
-      series: firstNonEmpty(product.series, product.model, product.type),
+      series: sanitizeText(firstNonEmpty(product.series, product.model, product.type)),
       description: firstNonEmpty(product.description, product.summary, "No description available."),
       category: firstNonEmpty(product.category, categoryContext, "Uncategorized"),
       filterType: firstNonEmpty(product.filterType, product.type),
@@ -102,12 +106,32 @@
     return [];
   }
 
-  function setOptions(select, values) {
+  function setOptions(select, values, selectedValue = "") {
     if (!select) return;
     const sorted = [...values].sort((a, b) => a.localeCompare(b));
-    select.innerHTML = `<option value="">All</option>${sorted
-      .map((value) => `<option value="${value}">${value}</option>`)
-      .join("")}`;
+    const selectedNormalized = normalize(selectedValue);
+    let selectedStillExists = false;
+
+    select.innerHTML = "";
+    const allOption = document.createElement("option");
+    allOption.value = "";
+    allOption.textContent = "All";
+    select.appendChild(allOption);
+
+    sorted.forEach((value) => {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = value;
+      if (selectedNormalized && normalize(value) === selectedNormalized) {
+        option.selected = true;
+        selectedStillExists = true;
+      }
+      select.appendChild(option);
+    });
+
+    if (selectedValue && !selectedStillExists) {
+      select.value = "";
+    }
   }
 
   function configureFilter(select, values) {
@@ -141,6 +165,29 @@
     return "";
   }
 
+  function getFilteredProducts({ ignoreSeries = false } = {}) {
+    const searchTerm = normalize(controls.search.value);
+
+    return products.filter((product) => {
+      const searchOk = !searchTerm || compileSearchText(product).includes(searchTerm);
+      const categoryOk = matchesSelect(controls.category.value, product.category);
+      const seriesOk = ignoreSeries ? true : matchesSelect(controls.series.value, product.series);
+      const mediaOk = matchesSelect(controls.media.value, product.media);
+      const typeOk = matchesSelect(controls.type.value, product.filterType);
+
+      return searchOk && categoryOk && seriesOk && mediaOk && typeOk;
+    });
+  }
+
+  function updateSeriesOptions() {
+    const matchingProducts = getFilteredProducts({ ignoreSeries: true });
+    const availableSeries = matchingProducts.map((product) => product.series).filter(isMeaningful);
+    const selectedSeries = controls.series.value;
+
+    setOptions(controls.series, new Set(availableSeries), selectedSeries);
+    controls.series.disabled = new Set(availableSeries.map((value) => normalize(value))).size === 0;
+  }
+
   function matchesSelect(controlValue, fieldValue) {
     if (!controlValue) return true;
     if (Array.isArray(fieldValue)) {
@@ -167,16 +214,21 @@
     return sorted;
   }
 
-  function renderProducts(data) {
+  function renderProducts(data, activeFiltersCount) {
     if (data.length === 0) {
       grid.innerHTML = "";
       emptyState.classList.remove("d-none");
-      countLabel.textContent = "0 products found";
+      countLabel.textContent = activeFiltersCount > 0 ? "0 products found · active filters applied" : "0 products found";
       return;
     }
 
     emptyState.classList.add("d-none");
-    countLabel.textContent = `${data.length} product${data.length === 1 ? "" : "s"} found`;
+    countLabel.textContent =
+      activeFiltersCount > 0
+        ? `${data.length} product${data.length === 1 ? "" : "s"} found · ${activeFiltersCount} active filter${
+            activeFiltersCount === 1 ? "" : "s"
+          }`
+        : `${data.length} product${data.length === 1 ? "" : "s"} found`;
 
     grid.innerHTML = data
       .map(
@@ -211,7 +263,7 @@
           const learnMoreUrl = getLearnMoreUrl(product);
 
           return `
-          <div class="col-md-6 col-xl-4 reveal reveal-visible">
+          <div class="col-sm-6 col-lg-4 col-xl-3 reveal reveal-visible">
             <article class="card product-card">
               <div class="card-body">
                 <h2 class="h5 mb-1">${product.name}</h2>
@@ -248,20 +300,16 @@
   }
 
   function applyFilters() {
+    updateSeriesOptions();
+
     const searchTerm = normalize(controls.search.value);
+    const activeFiltersCount = [searchTerm, controls.category.value, controls.series.value, controls.media.value, controls.type.value].filter(
+      Boolean
+    ).length;
 
-    const filtered = products.filter((product) => {
-      const searchOk = !searchTerm || compileSearchText(product).includes(searchTerm);
-      const categoryOk = matchesSelect(controls.category.value, product.category);
-      const seriesOk = matchesSelect(controls.series.value, product.series);
-      const mediaOk = matchesSelect(controls.media.value, product.media);
-      const typeOk = matchesSelect(controls.type.value, product.filterType);
-
-      return searchOk && categoryOk && seriesOk && mediaOk && typeOk;
-    });
-
+    const filtered = getFilteredProducts();
     const sorted = sortProducts(filtered, controls.sort.value);
-    renderProducts(sorted);
+    renderProducts(sorted, activeFiltersCount);
   }
 
   function bindEvents() {

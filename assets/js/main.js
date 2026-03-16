@@ -5,7 +5,7 @@
   if (header) {
     header.innerHTML = `
       <nav class="navbar navbar-expand-lg" aria-label="Primary navigation">
-        <div class="container">
+        <div class="container nav-shell">
           <a class="navbar-brand" href="index.html" aria-label="IPPS Home">
             <img src="assets/images/logo-white.png" alt="IPPS logo" class="brand-logo-nav" />
           </a>
@@ -25,8 +25,11 @@
               <li class="nav-item"><a class="nav-link ${page === "home" ? "active" : ""}" href="index.html">Home</a></li>
               <li class="nav-item"><a class="nav-link ${page === "catalog" ? "active" : ""}" href="catalog.html">Catalog</a></li>
               <li class="nav-item"><a class="nav-link ${page === "contact" ? "active" : ""}" href="contact.html">Contact</a></li>
-              <li class="nav-item ms-lg-2"><a class="nav-cta" href="quote.html">Request Quote</a></li>
             </ul>
+            <div class="nav-utility ms-lg-3 mt-3 mt-lg-0">
+              <a class="nav-contact-chip" href="mailto:ippspr@gmail.com">ippspr@gmail.com</a>
+              <a class="nav-cta ${page === "quote" ? "active" : ""}" href="quote.html">Request Quote</a>
+            </div>
           </div>
         </div>
       </nav>
@@ -38,12 +41,17 @@
     footer.className = "site-footer";
     footer.innerHTML = `
       <div class="container">
+        <div class="footer-highlights">
+          <span>Puerto Rico Operations Hub</span>
+          <span>Caribbean Service Coverage</span>
+          <span>Industrial & Commercial Supply</span>
+        </div>
         <div class="row g-4">
           <div class="col-md-5 col-lg-4">
             <a class="footer-brand-link" href="index.html" aria-label="IPPS Home">
               <img src="assets/images/logo-white.png" alt="IPPS logo" class="brand-logo-footer" />
             </a>
-            <p class="mb-2">Industrial filter distribution for industrial and commercial buyers.</p>
+            <p class="mb-2">Industrial filter distribution built for uptime, procurement confidence, and responsive Caribbean logistics.</p>
             <p class="mb-1"><strong>Location:</strong> Puerto Rico</p>
             <p class="mb-0"><strong>Service Area:</strong> All of the Caribbean</p>
           </div>
@@ -52,7 +60,7 @@
             <ul class="footer-list">
               <li><a href="index.html">Home</a></li>
               <li><a href="catalog.html">Catalog</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
               <li><a href="quote.html">Get a Quote</a></li>
             </ul>
           </div>
